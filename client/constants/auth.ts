@@ -73,3 +73,22 @@ export const OTPCode = [
     isForget: false,
   },
 ]
+
+export const NewAccount = [
+  {
+    label: "profile-img",
+    id: "profile-img",
+    name: "profile-img",
+    type: "file",
+    isPassword: false,
+    isForget: false,
+  },
+  {
+    label: "إسم المستخدم",
+    id: "username",
+    name: "username",
+    type: "text",
+    isPassword: false,
+    isForget: false,
+  },
+]
